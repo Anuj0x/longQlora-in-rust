@@ -1,9 +1,6 @@
 # LongQLoRA 3.0 - Ultra-High Performance LLM Context Extension in Rust
 
-[![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org/)
-[![CUDA](https://img.shields.io/badge/CUDA-12.0+-green.svg)](https://developer.nvidia.com/cuda-toolkit)
-[![Performance](https://img.shields.io/badge/Performance-10x--100x-blue.svg)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 **LongQLoRA 3.0** is a complete rewrite of LongQLoRA in **Rust** for **10x-100x performance improvements**. This ultra-high-performance implementation features advanced attention mechanisms, streaming datasets, and distributed training capabilities that surpass traditional Python/PyTorch implementations.
 
@@ -386,3 +383,4 @@ Try LongQLoRA 3.0 today and unlock the full potential of your hardware!
 ```bash
 cargo install longqlora --features cuda,flash-attn
 longqlora train --model your-model --train-file your-data.jsonl
+
