@@ -348,39 +348,3 @@ __global__ void attention_kernel(
 }
 ```
 
-### Contributing
-
-We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Original LongQLoRA implementation by Jianxin Yang
-- PyTorch and Transformers community
-- Rust CUDA ecosystem (cudarc, rust-cuda)
-- Flash Attention research (HazyResearch)
-
-## 📚 Citation
-
-```bibtex
-@misc{longqlora2024rust,
-      title={LongQLoRA 3.0: Ultra-High Performance Rust Implementation for Efficient LLM Context Extension},
-      author={LongQLoRA Contributors},
-      year={2024},
-      url={https://github.com/your-org/LongQLoRA}
-}
-```
-
----
-
-**🚀 Ready to experience 10x-100x faster LLM training?**
-
-Try LongQLoRA 3.0 today and unlock the full potential of your hardware!
-
-```bash
-cargo install longqlora --features cuda,flash-attn
-longqlora train --model your-model --train-file your-data.jsonl
-
